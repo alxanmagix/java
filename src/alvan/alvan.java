@@ -6,6 +6,8 @@ public class alvan {
 		// TODO Auto-generated method stub
 		System.out.println("IM alvan ");
 		
+		
+		int a=10;
 
 	}
 
