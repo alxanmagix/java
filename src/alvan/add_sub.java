@@ -12,10 +12,17 @@ public class add_sub {
 		b = scan.nextInt();
 		
 		int result = add(a,b);
+		int result_sub = sub(a,b);
 		System.out.println("Sum: " + result);
+		System.out.println("Sub: " + result_sub);
 	}
 	public static int add(int a,int b) {
 		int sum = a+b;
 		return sum;
+	}
+	
+	public static int sub(int a,int b) {
+		int sub = a -b;
+		return sub;
 	}
 }
