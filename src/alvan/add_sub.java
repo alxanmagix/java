@@ -10,10 +10,11 @@ public class add_sub {
 		a = scan.nextInt();
 		System.out.println("Enter the seconf number: ");
 		b = scan.nextInt();
-		int result = addNum(a,b);
+		
+		int result = add(a,b);
 		System.out.println("Sum: " + result);
 	}
-	public static int addNum(int a,int b) {
+	public static int add(int a,int b) {
 		int sum = a+b;
 		return sum;
 	}
