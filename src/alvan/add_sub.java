@@ -22,7 +22,7 @@ public class add_sub {
 	}
 	
 	public static int sub(int a,int b) {
-		int sub = a -b;
+		int sub = a +b;
 		return sub;
 	}
 }
